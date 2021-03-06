@@ -7,7 +7,7 @@ body{
   height: 97vh;
   width: 99vw;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 215px 1fr;
   grid-template-rows: 50px 1fr 50px; 
   grid-template-areas:
     "hd  hd"
@@ -38,7 +38,7 @@ body{
   color:#edddd0; 
   font-family:"Audiowide", sans-serif;
   font-size: 20px;
-  padding: 15px 16px;
+  padding: 15px 20px;
   text-decoration: none;
 }
 
@@ -66,15 +66,17 @@ body{
 .sidebar {
   grid-area: sd;
   overflow: auto;
-  background-color: #edddd0;
+  background-color: #334259;
+  padding-right: 5px;
+  padding-left: 10px;
 }
 
 .sidebar a {
-  color: #334259;
+  color: #db504a;
 }
 
 .sidebar a:hover {
-  background-color:#db504a; 
+  background-color:#edddd0; 
 }
 
 h1{color: #334259;
@@ -98,14 +100,14 @@ p {
   font-weight: bolder;}
 
 li {
-  color: #334259; 
+  color: #edddd0; 
   font-family: 'Permanent Marker', cursive;
-  font-size: larger; 
+  font-size:large;
+  font-weight: lighter; 
 }
 
 img {
   border-radius: 50%; 
   border: 1px solid #edddd0; 
-  padding: 5px; 
-  width: 182.7px;
+  width: 190px;
 }
